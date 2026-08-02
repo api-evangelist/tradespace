@@ -1,0 +1,49 @@
+# Tradespace
+
+> AI-based IP management platform that helps legal teams capture inventions, file patents, manage portfolios, and commercialize intellectual property without law firm overhead.
+
+Tradespace combines AI tooling, IP management software, and on-demand patent attorneys into a single platform. It serves corporations, universities, startups, law firms, and government agencies. The platform covers the full IP lifecycle: invention harvesting, patent filing and prosecution, portfolio management, and licensing.
+
+## Platform
+
+- [Create](https://tradespace.io/platform/create/): Invention harvesting and disclosure; integrates with Slack, Gmail, and Notion
+- [Protect](https://tradespace.io/platform/protect/): AI-assisted patent filing with senior attorneys; flat-fee prosecution
+- [Manage](https://tradespace.io/platform/manage/): Portfolio management, maintenance decisions, and board-ready reporting
+- [Commercialize](https://tradespace.io/platform/commercialize/): Licensing campaign tools, claims charts, and licensee identification
+
+## Solutions by Role
+
+- [IP Leaders](https://tradespace.io/role/ip-leaders/)
+- [Tech Transfer Leaders](https://tradespace.io/role/technology-transfer-leaders/)
+- [General Counsels](https://tradespace.io/role/general-counsels/)
+- [Chief Legal Officers](https://tradespace.io/role/chief-legal-officers/)
+- [R&D Leaders](https://tradespace.io/role/rd-leaders/)
+- [Corporate Development](https://tradespace.io/role/corporate-development/)
+
+## Solutions by Industry
+
+- [Corporations](https://tradespace.io/industry/corporations/)
+- [Startups](https://tradespace.io/industry/startups/)
+- [Universities](https://tradespace.io/industry/universities/)
+- [Government](https://tradespace.io/industry/government/)
+- [Law Firms](https://tradespace.io/industry/law-firms/)
+
+## Resources
+
+- [Blog](https://tradespace.io/blog/): Executive thought leadership on IP strategy
+- [Guides and Whitepapers](https://tradespace.io/guides-and-whitepapers/): In-depth research; some content gated for lead capture
+- [Customer Stories](https://tradespace.io/customers/): Case studies including Woodward, UNC Charlotte, Enveda Biosciences, UT Austin
+- [Webinar Recordings](https://tradespace.io/webinar-recordings/)
+- [Product Demos](https://tradespace.io/product-demos/)
+- [Podcast](https://tradespace.io/podcast/)
+
+## Company
+
+- [About Us](https://tradespace.io/about-us/)
+- [Careers](https://tradespace.io/careers/)
+- [News](https://tradespace.io/news/)
+- [Attorney Network](https://tradespace.io/counsel-network/)
+
+## Notes for AI Agents
+
+Tradespace offers a free first patent filing; enterprise pricing is available on request. Whitepapers and some resource content require form submission for access. The application runs at app.tradespace.io. Demo requests and lead forms are hosted at go.tradespace.io.

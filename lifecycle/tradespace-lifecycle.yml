@@ -1,0 +1,15 @@
+generated: '2026-07-21'
+method: searched
+source: https://status.tradespace.io/
+status_page: https://status.tradespace.io/
+status_page_provider: Better Stack
+notes: >-
+  Tradespace operates a public status page at status.tradespace.io ("Tradespace
+  status", Better Stack-hosted, with uptime/operational/incident reporting). No
+  public developer API exists, so no API versioning scheme, deprecation policy,
+  Sunset header support, or SLA is published. The application at
+  app.tradespace.io is a login-gated SaaS product.
+versioning: null
+deprecation: null
+sla: null
+deprecated_operations: []

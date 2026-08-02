@@ -1,0 +1,26 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://tradespace.io/platform/security-and-privacy/
+url: https://trust.tradespace.io/
+alternate_url: https://app.vanta.com/tradespace/trust/q4wj3sme0lp5br6s2gy44i
+certifications:
+  - SOC 2
+notes: >-
+  Tradespace publishes a Security and Privacy page stating "Tradespace partners
+  with Vanta to maintain SOC2 Type 2 Compliance" and links "See our controls at
+  our Trust Center" to a Vanta-hosted trust center (HTTP 200; JS-rendered).
+  The page also documents AES-256 encryption at rest, SSO via Okta / Microsoft /
+  Google, Microsoft Azure hosting with customer-private AI instances, a Data
+  Protection Addendum, and named defense-grade customers (Northrop Grumman,
+  Raytheon, DoD, DoE).
+evidence:
+  - source: https://tradespace.io/platform/security-and-privacy/
+    keywords: [soc2 type 2, vanta, trust center, aes-256, sso, azure]
+  - source: https://trust.tradespace.io/
+    status: 200
+    title: Tradespace Trust Center
+    keywords: [vanta, trust center, compliance]
+  - source: https://app.vanta.com/tradespace/trust/q4wj3sme0lp5br6s2gy44i
+    status: 200
+    kind: vanta-trust-center

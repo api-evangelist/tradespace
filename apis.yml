@@ -1,7 +1,19 @@
 aid: tradespace
 name: Tradespace
-description: Tradespace is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Tradespace is an AI-powered intellectual property management platform that
+  combines IP management software, AI tooling, and on-demand patent attorneys
+  in a single full-service patent practice. The platform spans the IP
+  lifecycle across four products — Create (invention harvesting and disclosure,
+  with Slack, Gmail, and Notion integrations), Protect (AI-assisted patent
+  drafting and flat-fee prosecution with senior attorneys), Manage (portfolio
+  management and board-ready reporting), and Commercialize (licensing
+  campaigns, claims charts, and licensee identification). It serves
+  corporations, universities, tech transfer offices, startups, law firms, and
+  government agencies, is SOC 2 Type 2 compliant (Vanta trust center), hosts on
+  Microsoft Azure with customer-private AI instances, and is a 500 Global
+  portfolio company. The SaaS application runs at app.tradespace.io; no public
+  developer API is published.
 url: https://raw.githubusercontent.com/api-evangelist/tradespace/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +21,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://tradespace.io/wp-content/uploads/2024/10/Tradespace-opengraph-v2-1.png
 tags:
 - Company
+- Intellectual Property
+- Patents
+- IP Management
+- Legal
+- Legal Tech
+- Licensing
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,42 @@ maintainers:
 common:
 - type: Website
   url: https://tradespace.io
+- type: Blog
+  url: https://tradespace.io/blog/
+- type: PrivacyPolicy
+  url: https://tradespace.io/privacy/
+- type: Support
+  url: https://tradespace.io/contact-us/
+- type: Login
+  url: https://app.tradespace.io/
+- type: GitHubOrganization
+  url: https://github.com/tradespace-io
+- type: LinkedIn
+  url: https://www.linkedin.com/company/tradespace-io/
+- type: YouTube
+  url: https://www.youtube.com/@tradespace.io.youtube
+- type: Careers
+  url: https://tradespace.io/careers/
+- type: News
+  url: https://tradespace.io/news/
+- type: SecurityPage
+  url: https://tradespace.io/platform/security-and-privacy/
+- type: StatusPage
+  url: https://status.tradespace.io/
+- type: Lifecycle
+  url: lifecycle/tradespace-lifecycle.yml
+- type: TrustCenter
+  url: security/tradespace-trust-center.yml
+- type: Compliance
+  url: https://trust.tradespace.io/
+- type: DomainSecurity
+  url: security/tradespace-domain-security.yml
+- type: WellKnown
+  url: well-known/tradespace-well-known.yml
+- type: LLMsTxt
+  url: llms/tradespace-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

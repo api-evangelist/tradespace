@@ -1,0 +1,30 @@
+generated: '2026-07-21'
+method: searched
+source: https://tradespace.io
+host: https://tradespace.io
+notes: >-
+  Marketing/product site for Tradespace (AI-based IP management platform). No
+  public API host advertised; the application runs at app.tradespace.io behind
+  login. Probed the standard /.well-known/ discovery surface; none of the
+  discovery documents are published. The site does publish a real /llms.txt
+  (captured in llms/tradespace-llms.txt).
+documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 200
+    file: ../llms/tradespace-llms.txt
+  - path: /robots.txt
+    status: 200
+  - path: /sitemap.xml
+    status: 200
